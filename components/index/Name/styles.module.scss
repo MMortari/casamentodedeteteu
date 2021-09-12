@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    color: #858687;
+    text-transform: uppercase;
+    font-size: 50px;
+
+    span {
+      letter-spacing: 8px;
+      display: initial;
+    }
+  }
+
+  img {
+    width: 280px;
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: 426px) {
+    h1 {
+      font-size: 32px;
+
+      span {
+        display: block;
+      }
+    }
+
+    img {
+      width: 250px;
+    }
+  }
+}

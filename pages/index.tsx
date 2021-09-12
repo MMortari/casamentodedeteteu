@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Name from '../components/index/Name';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -11,10 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Casamento Andressa e Matheus</h1>
-        <h2>05-02-2022</h2>
-      </main>
+      <Name />
     </div>
   );
 };
