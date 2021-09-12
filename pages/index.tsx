@@ -1,6 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+
 import Name from '../components/index/Name';
+import Images from '../components/index/Images';
+import Presentes from '../components/index/Presentes';
+import Local from '../components/index/Local';
+
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -13,6 +18,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Name />
+      <Images />
+      <Local />
+      <Presentes />
     </div>
   );
 };

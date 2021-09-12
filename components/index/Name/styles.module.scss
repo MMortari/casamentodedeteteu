@@ -1,5 +1,7 @@
+@import '../../../styles/vars.scss';
+
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 
   display: flex;
@@ -9,11 +11,12 @@
 
   h1 {
     text-align: center;
-    color: #858687;
+    color: $main-color;
     text-transform: uppercase;
     font-size: 50px;
 
     span {
+      margin: 0 30px;
       letter-spacing: 8px;
       display: initial;
     }
