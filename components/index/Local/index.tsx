@@ -13,8 +13,15 @@ const Local: NextPage = () => {
       <h3>05/02/2022 às 13hrs</h3>
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeque enim contingit omnibus fidibus, ut incontentae sint. Quamvis enim depravatae
-        non sint, pravae tamen esse possunt. Hic ego: Pomponius quidem, inquam, noster iocari videtur, et fortasse suo iure. Sullae consulatum?
+        Nos conhecemos no ensino médio e nos tornamos grandes amigos, quando rolou o primeiro sim, já sabíamos que era pra casar.
+        <br />
+        Do primeiro SIM para o segundo foram quatro anos de muita cumplicidade, amizade e muiiito amor! E aqui estamos muito felizes para o terceiro
+        SIM!
+        {/* <ul>
+          <li>❤️ 30/03/2017</li>
+          <li>💍 29/05/2021</li>
+          <li>👰🏻‍♀ 05/02/2022</li>
+        </ul> */}
       </p>
 
       <a href="https://sites.icasei.com.br/casamentodedemath/rsvp" target="blank">

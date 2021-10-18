@@ -9,6 +9,11 @@ const Images: NextPage = () => {
 
       <h2>Um pouco da nossa história...</h2>
 
+      <p>
+        Em 2021 decidimos nos casar e estamos curtindo cada detalhe até aqui, saiba que vc é nosso convidado especial! Vamos dividir com você os
+        momentos marcantes da nossa história e te informar sobre detalhes importantes do nosso grande dia
+      </p>
+
       <div className={styles.list}>
         <span>
           <img src="/img/foto1.png" alt="Small sheet" />

@@ -3,6 +3,7 @@
 .container {
   min-height: 100vh;
   padding: 0 15%;
+  margin: 120px 0;
 
   hr {
     margin: 0 15%;
@@ -16,7 +17,11 @@
     text-align: center;
     color: $main-color;
     font-size: 40px;
-    margin: 140px 0;
+  }
+
+  p {
+    margin: 80px 0;
+    text-align: center;
   }
 }
 
@@ -29,7 +34,6 @@
   grid-column-gap: 10px;
   grid-row-gap: 0;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 120px;
 
   span {
     display: flex;

@@ -19,7 +19,7 @@
     text-align: center;
     color: $main-color;
     font-size: 40px;
-    margin: 140px 0 0;
+    margin: 120px 0 0;
   }
 
   p {
@@ -31,13 +31,12 @@
     color: white;
     padding: 10px 22px;
     border-radius: 11px;
-    transition: .2s;
+    transition: 0.2s;
 
-    
     &:hover {
       background-color: $secondary-color !important;
     }
-    
+
     @media screen and (max-width: 426px) {
       display: flex;
       flex-direction: column;
