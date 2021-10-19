@@ -13,10 +13,8 @@ const Local: NextPage = () => {
       <h3>05/02/2022 às 13hrs</h3>
 
       <p>
-        Nos conhecemos no ensino médio e nos tornamos grandes amigos, quando rolou o primeiro sim, já sabíamos que era pra casar.
-        <br />
-        Do primeiro SIM para o segundo foram quatro anos de muita cumplicidade, amizade e muiiito amor! E aqui estamos muito felizes para o terceiro
-        SIM!
+        Você é nosso convidado especial! E por isso é muito importante que você confirme sua presença, estamos ansiosos para dividir esse momento
+        contigo!
         {/* <ul>
           <li>❤️ 30/03/2017</li>
           <li>💍 29/05/2021</li>

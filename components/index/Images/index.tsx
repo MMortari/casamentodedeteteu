@@ -10,8 +10,9 @@ const Images: NextPage = () => {
       <h2>Um pouco da nossa história...</h2>
 
       <p>
-        Em 2021 decidimos nos casar e estamos curtindo cada detalhe até aqui, saiba que vc é nosso convidado especial! Vamos dividir com você os
-        momentos marcantes da nossa história e te informar sobre detalhes importantes do nosso grande dia
+        Nos conhecemos no ensino médio e nos tornamos grandes amigos, quando rolou o primeiro sim, já sabíamos que era pra casar. Do primeiro{' '}
+        <strong>SIM</strong> para o segundo foram quatro anos de muita cumplicidade, amizade e muiiito amor! E aqui estamos muito felizes para o
+        terceiro <strong>SIM</strong>.
       </p>
 
       <div className={styles.list}>
