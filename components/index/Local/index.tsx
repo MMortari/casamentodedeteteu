@@ -1,8 +1,8 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 
-import Divider from '../../Divider';
+import Divider from "../../Divider";
 
-import styles from './styles.module.scss';
+import styles from "./styles.module.scss";
 
 const Local: NextPage = () => {
   return (
@@ -11,7 +11,8 @@ const Local: NextPage = () => {
       <h2>Está chegando o grande dia!</h2>
       <h3>05/02/2022 às 13hrs</h3>
       <p>
-        Você é nosso convidado especial! E por isso é muito importante que você confirme sua presença, estamos ansiosos para dividir esse momento
+        Você é nosso convidado especial! E por isso é muito importante que você
+        confirme sua presença, estamos ansiosos para dividir esse momento
         contigo!
         {/* <ul>
           <li>❤️ 30/03/2017</li>
@@ -20,29 +21,36 @@ const Local: NextPage = () => {
         </ul> */}
       </p>
 
-      <a href="https://sites.icasei.com.br/casamentodedemath/rsvp" target="blank">
+      <a
+        href="https://sites.icasei.com.br/casamentodedemath/rsvp"
+        target="blank"
+      >
         Confirmar minha presença
       </a>
 
       <p>
-        <b>Algumas informações adicionais</b>
+        <h4>Algumas informações adicionais</h4>
         <br />
         <br />
         <b>Qual o tipo de roupa que devo ir?</b>
         <br />
-        Como o casamento será em uma chácara com almoço, vá de esporte fino, e mulheres, se forem de salto, evitem os finos.
+        Como o casamento será em uma chácara com almoço, vá de esporte fino, e
+        mulheres, se forem de salto, evitem os finos.
         <br />
         <br />
-        <b>Queria dar o presente de vocês em dinheiro ao invés do produto no site, pode ser?</b>
+        <b>
+          Queria dar o presente de vocês em dinheiro ao invés do produto no
+          site, pode ser?
+        </b>
         <br />
-        Quando você compra um presente para nós no site, nós recebemos o valor do produto em dinheiro. Mas se preferir, pode usar nosso PIX{' '}
-        <b>(11) 94720-7302</b>.
+        Pode usar nosso PIX <b>(11) 94720-7302</b>.
         <br />
         <br />
         <b>Que horas devo chegar?</b>
         <br />
-        Como o lugar fica dentro de um condomínio com lista de convidados, pode ser que tenha um &#34;trânsito&#34; na entrada do local, então chegue
-        um pouco antes!
+        Como o lugar fica dentro de um condomínio com lista de convidados, pode
+        ser que tenha um &#34;trânsito&#34; na entrada do local, então chegue um
+        pouco antes!
       </p>
 
       <iframe
